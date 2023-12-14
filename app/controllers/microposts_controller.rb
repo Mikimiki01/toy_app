@@ -8,6 +8,7 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/1 or /microposts/1.json
   def show
+    @microposts = Micropost.all
   end
 
   # GET /microposts/new
